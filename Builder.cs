@@ -8,7 +8,7 @@ namespace TheBuilderPattern
 {
     public abstract class Builder
     {
-        //the builder needs the Product (plan) of the house to build one
+        //The builder needs the Product (plan) of the house to build one
         protected House house = new House();
 
         public abstract void BuildRoof();
@@ -19,7 +19,7 @@ namespace TheBuilderPattern
 
         public House GetHouse()
         {
-            return house;
+            return house; // This product is inturn used in by the Concreate Builder to build a specific type of house
         }        
     }
 }
