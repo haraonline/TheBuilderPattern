@@ -19,7 +19,7 @@ namespace TheBuilderPattern
 
         public House GetHouse()
         {
-            return house; // This product is inturn used in by the Concreate Builder to build a specific type of house
+            return house; //This returned product object is inturn used in by the Concreate Builder to build a specific type of house
         }        
     }
 }
