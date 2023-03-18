@@ -1,6 +1,4 @@
-# TheBuilderPattern
-
-## When to use the Builder Pattern?
+# The Builder Pattern (what, why, when)
 
 The Builder pattern is useful in situations where there is a need to create complex objects with many parts or components. It is particularly useful when the construction process involves multiple steps or stages, and when there are multiple possible variations of the final object.
 
