@@ -18,7 +18,7 @@
 
             //create a wooden house (instance)
             Builder woodenHouse = new WoodenHouse();
-            //Ask the director to build this simple house
+            //Ask the director to build this wooden house
             Director.BuildHouse(woodenHouse);
             var wh = woodenHouse.GetHouse();
             //print the results
