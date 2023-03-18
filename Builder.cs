@@ -8,7 +8,7 @@ namespace TheBuilderPattern
 {
     public abstract class Builder
     {
-        //builder
+        //the builder needs the Product (plan) of the house to build one
         protected House house = new House();
 
         public abstract void BuildRoof();
