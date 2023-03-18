@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,12 +8,11 @@ namespace TheBuilderPattern
 {
     public static class Director
     {
-        //DIRECTOR. Deligates the job to the builder
+        //The Director deligates the job to the builder, the builder inturn uses the Product plan house to build a certain type of house
         //This can be a static or regular class              
 
         public static void BuildHouse(Builder builder)
-        {            
-            
+        {   
             builder.BuildRoof();
             builder.BuildWalls();
             builder.BuildDoors();
